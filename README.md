@@ -1,7 +1,7 @@
 # Robot Arm
 install ROS melodic by VirtualBox and Ubuntu, apply robotic arm in ROS
 ## Set up
-we set up a robot arm in ROS (Robot Operating System), follow these steps:
+we set up a robot arm in ROS (Robot Operating System), following these steps:
 ### **1.** Begin by downloading VirtualBox, a virtualization program that enables us to run Ubuntu on our computer inside a virtual machine.
 
 ### **2.** Install Ubuntu 18.04: Once we have VirtualBox installed, download and install Ubuntu 18.04 as the operating system for our virtual machine.
@@ -69,3 +69,6 @@ roslaunch robot_arm_pkg check_motors.launch
 ##**By following these steps, we will set up the necessary environment and launch the robot arm in ROS for further exploration and control. That will appear as follows:** 
 
 ![picture](RobotArm.png)
+
+## We can control this Arm by these settings:
+![picture2](ArmControl.png)
