@@ -67,4 +67,5 @@ source ~/.bashrc
 roslaunch robot_arm_pkg check_motors.launch
 
 ##**By following these steps, we will set up the necessary environment and launch the robot arm in ROS for further exploration and control. That will appear as follows:** 
+
 ![picture](RobotArm.png)
