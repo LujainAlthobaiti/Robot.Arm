@@ -10,7 +10,7 @@ we set up a robot arm in ROS (Robot Operating System), following these steps:
  **3.** Open the Terminal: After booting into Ubuntu, we open the Terminal application, which allows us to execute commands.
 
  **4.** Add ROS repository: Add the ROS repository to the package manager's list of software sources by running the following command in the **Terminal:**
-     sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
+    ### sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
 
  **5.** Add ROS key: Import the ROS key to verify the authenticity of the packages by executing this command:
      sudo apt-key adv --keyserver 'hkp://keyserver.ubuntu.com:80' --recv-key C1CF6E31E6BADE8868B172B4F42ED6FBAB17C654
